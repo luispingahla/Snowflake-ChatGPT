@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# create app
-app = Flask(__name__)
+
 
 def bootstrap():
     # create app
