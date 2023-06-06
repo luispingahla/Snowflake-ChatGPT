@@ -3,8 +3,11 @@ import openai
 from chat_gpt.chat_gpt_model import MessageRequestDTO
 
 
-openai.organization = os.getenv('ORGANIZATION_ID')
-openai.api_key = os.getenv('OPENAI_API_KEY')
+# openai.organization = os.getenv('ORGANIZATION_ID')
+# openai.api_key = os.getenv('OPENAI_API_KEY')
+
+openai.organization = "org-UNpHbA1sru4gIudRB5W1moxH"
+openai.api_key = "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"
 
 
 class ChatGptService:
