@@ -7,7 +7,7 @@ from chat_gpt.chat_gpt_model import MessageRequestDTO
 # openai.api_key = os.getenv('OPENAI_API_KEY')
 
 openai.organization = "org-UNpHbA1sru4gIudRB5W1moxH"
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 class ChatGptService:
